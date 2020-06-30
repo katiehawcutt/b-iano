@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>~B-iano~</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background background-opacity">
+      <div class="header-container">
+        <h1>The B-IANO</h1>
+      </div>
+      <div class="body-container">
+        <div class="piano-container">
+          <button class="white-key C key" onmouseover="playAudio('c')">
+            A
+          </button>
+          <button class="black-key key" onmouseover="playAudio('cSharp')">
+            W
+          </button>
+          <button class="white-key key" onmouseover="playAudio('d')">S</button>
+          <button class="black-key key" onmouseover="playAudio('eFlat')">
+            E
+          </button>
+          <button class="white-key key" onmouseover="playAudio('e')">D</button>
+          <button class="white-key F key" onmouseover="playAudio('f')">
+            F
+          </button>
+          <button class="black-key key" onmouseover="playAudio('fSharp')">
+            T
+          </button>
+          <button class="white-key key" onmouseover="playAudio('g')">G</button>
+          <button class="black-key key" onmouseover="playAudio('gSharp')">
+            Y
+          </button>
+          <button class="white-key key" onmouseover="playAudio('a')">H</button>
+          <button class="black-key key" onmouseover="playAudio('bFlat')">
+            U
+          </button>
+          <button class="white-key key" onmouseover="playAudio('b')">J</button>
+          <button
+            class="white-key octave-C key"
+            onmouseover="playAudio('cOctave')"
+          >
+            K
+          </button>
+        </div>
+
+        <button class="pop-up" id="pop-up" onclick="loadPage()">
+          <h2>CLICK HERE!</h2>
+          <p>to play the B-IANO</p>
+        </button>
+      </div>
+      <div class="footer">
+        <p class="footer">Use the mouse or the keyboard to play the B-IANO</p>
+      </div>
+    </div>
+
+    <audio id="c">
+      <source src="./Ben - C.wav" type="audio/wav" />
+    </audio>
+    <audio id="cSharp">
+      <source src="./Ben -Csharp.wav" type="audio/wav" />
+    </audio>
+    <audio id="d">
+      <source src="./Ben - D.wav" type="audio/wav" />
+    </audio>
+    <audio id="eFlat">
+      <source src="./Ben - Eb.wav" type="audio/wav" />
+    </audio>
+    <audio id="e">
+      <source src="./Ben - E.wav" type="audio/wav" />
+    </audio>
+    <audio id="f">
+      <source src="./Ben - F.wav" type="audio/wav" />
+    </audio>
+    <audio id="fSharp">
+      <source src="./Ben - Fsharp.wav" type="audio/wav" />
+    </audio>
+    <audio id="g">
+      <source src="./Ben - G.wav" type="audio/wav" />
+    </audio>
+    <audio id="gSharp">
+      <source src="./Ben - Gsharp.wav" type="audio/wav" />
+    </audio>
+    <audio id="a">
+      <source src="./Ben - A.wav" type="audio/wav" />
+    </audio>
+    <audio id="bFlat">
+      <source src="./Ben - Bb.wav" type="audio/wav" />
+    </audio>
+    <audio id="b">
+      <source src="./Ben - B.wav" type="audio/wav" />
+    </audio>
+    <audio id="cOctave">
+      <source src="./Ben - C octave.wav" type="audio/wav" />
+    </audio>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
