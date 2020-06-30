@@ -2,6 +2,8 @@
 
 ## It's like a piano but instead uses the sounds of Ben.
 
+###### June 2020
+
 ### Things I learnt /experimented with during this project:
 
 - Adding an event listener to the window (keydown) as well as mouseover
